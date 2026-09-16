@@ -35,7 +35,7 @@ export default function HeroBarber() {
 
           <h1 className="max-w-5xl font-display text-[3.35rem] font-medium leading-[0.84] tracking-[-0.04em] sm:text-[clamp(4rem,9vw,9rem)] sm:leading-[0.82] sm:tracking-[-0.045em]">
             Strih s vlastným
-            <span className="block pl-8 text-[0.82em] text-[#D0B486] sm:pl-24 sm:text-[1em] lg:pl-36">
+            <span className="mt-1 block pl-0 text-[0.72em] leading-none text-[#D0B486] sm:mt-0 sm:pl-24 sm:text-[1em] sm:leading-[0.82] lg:pl-36">
               charakterom.
             </span>
           </h1>
