@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 export default function ServicesBarber() {
   return (
-    <section id="sluzby" className="bg-[#F7F5F2] px-6 py-24 lg:py-32">
+    <section id="sluzby" className="bg-[#FCFAF7] px-6 py-24 lg:py-32">
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           badge="Služby"

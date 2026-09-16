@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function WhyUsBarber() {
   return (
-    <section className="bg-[#F7F5F2] px-6 py-24 lg:py-32">
+    <section className="relative z-20 -mt-8 rounded-t-[2.75rem] border-t border-[#DDD3C5] bg-[#EEE9E2] px-6 pb-24 pt-28 shadow-[0_-12px_34px_rgba(23,21,18,0.055)] lg:pb-32 lg:pt-36">
       <div className="mx-auto max-w-6xl">
         <SectionHeading badge={whyUs.badge} title={whyUs.title} />
 

@@ -9,7 +9,7 @@ export const company: Company = {
 
   website: "https://barber-demo.vercel.app",
 
-  heroImage: "/images/barber-hero.jpg",
+  heroImage: "/images/barber-hero-wide.jpg",
   logo: "/images/logo.png",
   ogImage: "/images/og-image.jpg",
 

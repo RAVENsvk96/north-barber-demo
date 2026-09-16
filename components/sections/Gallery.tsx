@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Gallery() {
   return (
-    <section className="mx-auto max-w-6xl px-6 py-24">
+    <section id="galeria" className="relative z-30 mx-auto -mt-8 max-w-6xl px-6 pb-24 pt-28 before:absolute before:inset-y-0 before:left-1/2 before:-z-10 before:w-screen before:-translate-x-1/2 before:rounded-t-[2.75rem] before:border-t before:border-[#E4DCCF] before:bg-[#FCFAF7] before:shadow-[0_-12px_34px_rgba(23,21,18,0.055)] lg:pb-32 lg:pt-36">
       <motion.div
         initial={{ opacity: 0, y: 32 }}
         whileInView={{ opacity: 1, y: 0 }}

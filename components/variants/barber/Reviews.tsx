@@ -12,7 +12,7 @@ const goals = [
 
 export default function ReviewsBarber() {
   return (
-    <section id="recenzie" className="bg-[#F7F5F2] px-6 py-24 lg:py-32">
+    <section id="recenzie" className="relative z-40 -mt-8 rounded-t-[2.75rem] border-t border-[#DDD3C5] bg-[#EEE9E2] px-6 pb-24 pt-28 shadow-[0_-12px_34px_rgba(23,21,18,0.055)] lg:pb-32 lg:pt-36">
       <div className="mx-auto max-w-6xl">
         <SectionHeading badge="Ciele návrhu" title="Web vytvorený pre silný prvý dojem." description="Táto sekcia predstavuje dizajnové ciele demo projektu. Neobsahuje recenzie skutočných klientov." />
         <div className="mt-16 grid gap-4 md:grid-cols-3">

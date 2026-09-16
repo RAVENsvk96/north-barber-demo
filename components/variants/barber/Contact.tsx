@@ -6,7 +6,7 @@ import { ArrowUpRight, ShieldCheck } from "lucide-react";
 
 export default function ContactBarber() {
   return (
-    <section id="kontakt" className="bg-[#F7F5F2] px-6 py-24 lg:py-32">
+    <section id="kontakt" className="relative z-50 -mt-8 rounded-t-[2.75rem] border-t border-[#E4DCCF] bg-[#FCFAF7] px-6 pb-24 pt-28 shadow-[0_-12px_34px_rgba(23,21,18,0.055)] lg:pb-32 lg:pt-36">
       <div className="mx-auto max-w-6xl">
         <SectionHeading badge="Demo projekt" title="Páči sa vám tento barber koncept?" description="Toto je ukážka dizajnu a vývoja, nie stránka skutočného štúdia. Rezervácie ani osobné údaje tu neprijímame." />
         <motion.div initial={{ opacity: 0, y: 18 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="mt-14 rounded-[2rem] border border-[#E6DED2] bg-white p-8 sm:p-10 lg:flex lg:items-center lg:justify-between lg:gap-12">
